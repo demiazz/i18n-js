@@ -3,7 +3,7 @@ PATH
   specs:
     i18n-js (2.1.2)
       i18n
-      ruby_parser (>= 3.1.2)
+      ruby_parser (~> 3.2.2)
 
 GEM
   remote: https://rubygems.org/
@@ -50,10 +50,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (>= 3.0.0)
+  activesupport (>= 3.2.14)
   fakeweb
   i18n-js!
   pry
   rake
-  rspec (~> 2.6)
-  spec-js (~> 0.1.0.beta.0)
+  rspec (~> 2.14.1)
+  spec-js (~> 0.1.0.beta.1)

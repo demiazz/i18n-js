@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "i18n"
-  s.add_dependency "ruby_parser", ">= 3.1.2"
+  s.add_dependency "ruby_parser", "~> 3.2.2"
   s.add_development_dependency "fakeweb"
-  s.add_development_dependency "activesupport", ">= 3.0.0"
-  s.add_development_dependency "rspec", "~> 2.6"
-  s.add_development_dependency "spec-js", "~> 0.1.0.beta.0"
+  s.add_development_dependency "activesupport", ">= 3.2.14"
+  s.add_development_dependency "rspec", "~> 2.14.1"
+  s.add_development_dependency "spec-js", "~> 0.1.0.beta.1"
   s.add_development_dependency "rake"
   s.add_development_dependency "pry"
 end
